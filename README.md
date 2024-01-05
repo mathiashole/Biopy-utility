@@ -1,2 +1,2 @@
 # python-script
-python script facilitate work
+python script facilitates work
