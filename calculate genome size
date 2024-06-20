@@ -1,0 +1,14 @@
+#A python was used to calculate genome size
+
+
+
+#import sys
+def readGenome(filename):
+    genome=''
+    with open (filename,'r') as f:
+        for line in f:
+            if not line[0]=='>':
+                genome += line.rstrip()
+    return genome
+genome = readGenome(genome_path)
+print(genome_path,round(len(genome)/1000000,2), "Mbp")
