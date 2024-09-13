@@ -24,3 +24,4 @@ if __name__ == "__main__":
     main()
 
 # Execution: python calculate genome size path/genome.fasta
+# comment
